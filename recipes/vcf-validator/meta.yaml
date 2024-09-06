@@ -18,6 +18,13 @@ source:
     sha256: a5b9b8e1e43997930d836d8dc001f2a4aaff5b9a26f7db58d9215ecfeea7f188                                              # [osx and arm64]
   - url: https://github.com/tcezard/vcf-validator/releases/download/test_artifacts/vcf_assembly_checker_macos_arm64  # [osx and arm64]
     sha256: 0431db716f08cd1c66201ff2ea133260775e7074fbf7ee2aa60ce34b85eb2119                                              # [osx and arm64]
+  - url: https://github.com/tcezard/vcf-validator/releases/download/test_artifacts/vcf_assembly_checker_macos_x64    # [osx and x86]
+    sha256: a55ff1599eb5ad6bbc89ed3b180a9c577bea175be5b5020119028409c1e7765e                                              # [osx and x86]
+  - url: https://github.com/tcezard/vcf-validator/releases/download/test_artifacts/vcf_validator_macos_arm64         # [osx and arm64]
+    sha256: a5b9b8e1e43997930d836d8dc001f2a4aaff5b9a26f7db58d9215ecfeea7f188                                              # [osx and arm64]
+  - url: https://github.com/tcezard/vcf-validator/releases/download/test_artifacts/vcf_assembly_checker_macos_arm64  # [osx and arm64]
+    sha256: 0431db716f08cd1c66201ff2ea133260775e7074fbf7ee2aa60ce34b85eb2119                                              # [osx and arm64]
+
 
 build:
   script:
